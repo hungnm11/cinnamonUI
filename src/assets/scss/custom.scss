@@ -1,0 +1,31 @@
+.App {
+  .navbar {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #25b5be;
+  }
+  .logo {
+    width: 170px;
+  }
+  .display-4 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .table {
+    .thead-dark {
+      th {
+        background-color: #25b5be !important;
+        border-color: #dee2e6;
+      }
+    }
+  }
+
+  .btn {
+    margin-left: 5px;
+    width: 100px;
+  }
+  .footer {
+    border-top: 1px solid #25b5be;
+    margin-top: 30px;
+  }
+}
